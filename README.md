@@ -10,6 +10,7 @@ VEAdmin是一个基于Vue + ElementUI开发的后台前端解决方案，采用m
 vue全家桶 + ElementUI + ppcharts + mock.js
 
 ## 主要功能
+```
 - 登录 / 注销
 
 - 权限验证
@@ -56,8 +57,10 @@ vue全家桶 + ElementUI + ppcharts + mock.js
   - 折线图
   - 地图
   - 饼状图
+ ```
  
-<!--  ## 目录结构
+  ## 目录结构
+  ```bash
   ├── build                      # 构建相关
   ├── mock                       # 项目mock 模拟数据
   ├── public                     # 静态资源
@@ -75,12 +78,22 @@ vue全家桶 + ElementUI + ppcharts + mock.js
   │   ├── main.js                # 入口文件 加载组件 初始化等
   ├── vue.config.js              # vue-cli 配置
   ├── package-lock.json          # package-lock.json
-  └── package.json               # package.json -->
+  └── package.json               # package.json
+  ```
   
  ## 安装
  ```
  ### 克隆项目
- git clone 
+ git clone git@github.com:CoderBeam/VEAdmin.git
+ 
+ ### 进入项目
+ cd VEAdmin
+ 
+ ### 安装依赖
+ npm install
+ 
+ ### 启动服务
+ npm run dev
  ```
   
  ## 其他
@@ -94,4 +107,6 @@ vue全家桶 + ElementUI + ppcharts + mock.js
  ### 打包
  npm run build
  ```
+ 
+ ## 项目截图
  

@@ -1,0 +1,13 @@
+// @charset "utf-8";
+@import "./variable"; // 引入变量
+.add-size(){
+  [data-size="0"] & {
+    font-size:@font_size_16;
+  }
+  [data-size="1"] & {
+    font-size:@font_size_20;
+  }
+  [data-size="2"] & {
+    font-size:@font_size_24;
+  }
+}

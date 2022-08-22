@@ -53,7 +53,7 @@ vue全家桶 + ElementUI + ppcharts + mock.js
   - 头像上传
   - 返回顶部
   - 拖拽Dialog
-  - 拖拽Select
+  
 - 图表
   - 柱状图
   - 折线图

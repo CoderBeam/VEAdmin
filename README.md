@@ -1,22 +1,4 @@
- # VEAdmin
-
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
+# VEAdmin
 ## 项目介绍
 VEAdmin是一个基于Vue + ElementUI开发的后台前端解决方案，采用mock.js模拟后端接口，可随机生成所需数据，可模拟对数据的增删改查。
 
@@ -75,7 +57,7 @@ vue全家桶 + ElementUI + ppcharts + mock.js
   - 地图
   - 饼状图
  
- ## 目录结构
+<!--  ## 目录结构
   ├── build                      # 构建相关
   ├── mock                       # 项目mock 模拟数据
   ├── public                     # 静态资源
@@ -93,7 +75,23 @@ vue全家桶 + ElementUI + ppcharts + mock.js
   │   ├── main.js                # 入口文件 加载组件 初始化等
   ├── vue.config.js              # vue-cli 配置
   ├── package-lock.json          # package-lock.json
-  └── package.json               # package.json
+  └── package.json               # package.json -->
   
-  ## 项目截图
+ ## 安装
+ ```
+ ### 克隆项目
+ git clone 
+ ```
+  
+ ## 其他
+ ```
+ ### 安装依赖
+ npm install
+
+ ### 启动服务
+ npm run serve
+ 
+ ### 打包
+ npm run build
+ ```
  
